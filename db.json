@@ -7,7 +7,20 @@
       "password": "123456",
       "sdt": "0763719907",
       "role": "admin",
-      "carts": [],
+      "carts": [
+        {
+          "productId": 2,
+          "count": 1,
+          "name": "Tìm Em Nơi Anh - Find Me",
+          "price": 135,
+          "image": [
+            "/images/product2.jpg",
+            "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/tim_em_noi_anh___find_me/2021_03_13_12_08_47_3.jpg",
+            "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/tim_em_noi_anh___find_me/2021_03_13_12_08_47_16.jpg",
+            "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/tim_em_noi_anh___find_me/2021_03_13_12_08_47_2.jpg"
+          ]
+        }
+      ],
       "phone": "0763719907",
       "address": "Nguyễn Huy Tưởng",
       "gender": "Nữ",
