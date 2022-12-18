@@ -26,10 +26,10 @@
   },
   "scripts": {
     "start": "craco start",
-    "build": "craco node server.js build",
+    "build": "craco build",
     "test": "craco test",
     "eject": "craco eject",
-    "server": "node server.js"
+    "server": "json-server --watch db.json --port 5000"
   },
   "eslintConfig": {
     "extends": [
