@@ -1,0 +1,686 @@
+{
+  "users": [
+    {
+      "id": 2,
+      "email": "admin@gmail.com",
+      "name": "Admin",
+      "password": "123456",
+      "sdt": "0763719907",
+      "role": "admin",
+      "carts": [],
+      "phone": "0763719907",
+      "address": "Nguyễn Huy Tưởng",
+      "gender": "Nữ",
+      "birthday": "29/04/2022"
+    },
+    {
+      "email": "hoangthanh99er@gmail.com",
+      "password": "123456",
+      "name": "Hoang Thanh",
+      "phone": "0763719907",
+      "role": "user",
+      "carts": [],
+      "id": 5,
+      "address": "Hòa Khánh",
+      "gender": "Nam",
+      "birthday": "23/11/2021"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Nhà Giả Kim",
+      "code": "8935235226272",
+      "labelSale": "15%",
+      "author": "Paulo Coelho",
+      "publicYear": 2020,
+      "weight": 220,
+      "size": "20.5 x 13 cm",
+      "numberPages": 227,
+      "formality": "Bìa mềm",
+      "image": [
+        "/images/product1.jpg",
+        "https://cdn0.fahasa.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/8/9/8935235226272_1.jpg"
+      ],
+      "price": 150,
+      "countInStock": 0,
+      "categoryId": 1,
+      "publisherId": 1,
+      "description": "<p><i>Tất cả những trải nghiệm trong chuyến phiêu du theo đuổi vận mệnh của mình đã giúp Santiago thấu hiểu được ý nghĩa sâu xa nhất của hạnh phúc, hòa hợp với vũ trụ và con người.</i></p> <p>Tiểu thuyết Nhà giả kim của Paulo Coelho như một câu chuyện cổ tích giản dị, nhân ái, giàu chất thơ, thấm đẫm những minh triết huyền bí của phương Đông. Trong lần xuất bản đầu tiên tại Brazil vào năm 1988, sách chỉ bán được 900 bản. Nhưng, với số phận đặc biệt của cuốn sách dành cho toàn nhân loại, vượt ra ngoài biên giới quốc gia, Nhà giả kim đã làm rung động hàng triệu tâm hồn, trở thành một trong những cuốn sách bán chạy nhất mọi thời đại, và có thể làm thay đổi cuộc đời người đọc.</p> <p>“Nhưng nhà luyện kim đan không quan tâm mấy đến những điều ấy. Ông đã từng thấy nhiều người đến rồi đi, trong khi ốc đảo và sa mạc vẫn là ốc đảo và sa mạc. Ông đã thấy vua chúa và kẻ ăn xin đi qua biển cát này, cái biển cát thường xuyên thay hình đổi dạng vì gió thổi nhưng vẫn mãi mãi là biển cát mà ông đã biết từ thuở nhỏ. Tuy vậy, tự đáy lòng mình, ông không thể không cảm thấy vui trước hạnh phúc của mỗi người lữ khách, sau bao ngày chỉ có cát vàng với trời xanh nay được thấy chà là xanh tươi hiện ra trước mắt. ‘Có thể Thượng đế tạo ra sa mạc chỉ để cho con người biết quý trọng cây chà là,’ ông nghĩ.”- Trích Nhà giả kim</p> <h4>Nhận định.</h4> <p>“Sau Garcia Márquez, đây là nhà văn Mỹ Latinh được đọc nhiều nhất thế giới.” - The Economist, London, Anh.</p> <p>“Santiago có khả năng cảm nhận bằng trái tim như Hoàng tử bé của Saint-Exupéry.” - Frankfurter Allgemeine Zeitung, Đức</p>"
+    },
+    {
+      "id": 2,
+      "name": "Tìm Em Nơi Anh - Find Me",
+      "code": "8934974171928",
+      "labelSale": "18%",
+      "author": "André Aciman",
+      "publicYear": 2020,
+      "weight": 350,
+      "size": "20 x 13 cm",
+      "numberPages": 332,
+      "formality": "Bìa mềm",
+      "image": [
+        "/images/product2.jpg",
+        "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/tim_em_noi_anh___find_me/2021_03_13_12_08_47_3.jpg",
+        "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/tim_em_noi_anh___find_me/2021_03_13_12_08_47_16.jpg",
+        "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/tim_em_noi_anh___find_me/2021_03_13_12_08_47_2.jpg"
+      ],
+      "price": 135,
+      "countInStock": 100,
+      "categoryId": 3,
+      "publisherId": 1,
+      "description": "<p>Đây là cuốn tiếp theo sau Gọi em bằng tên anh (Call me by your name).Những nhân vật gặp lại, và câu chuyện nhiều năm sau, khi họ đều đã lớn tuổi hơn và có những ngã rẽ riêng trong cuộc đời mình.</p> <p>Tác giả chia sẻ thêm về quyết định viết tiếp câu chuyện: Tôi vẫn luôn đau đáu về câu chuyện dang dở trong Gọi em bằng tên anh. Dù là người tạo nên các nhân vật và cuộc đời họ, tôi không thể ngờ rằng chính các nhân vật lại khiến tôi trăn trở về những xao động của tình yêu - điều mà tôi không hay biết cho đến khi hoàn thiện cuốn sách. Bộ phim điện ảnh chuyển thể từ cuốn tiểu thuyết đã giúp tôi nhận ra rằng mình muốn được trở lại với Elio và Oliver và tiếp tục đồng hành với 2 con người ấy.</p> <p>Find Me được chia làm bốn phần: Tempo, Cadenza, Capriccio và Da Capo, như một bản nhạc lôi cuốn có nhịp điệu và hơi thở riêng, cùng những đoạn phóng túng ngẫu hứng nói lên tiếng lòng người chơi.</p> Tempo <p>Phần đầu tiên được thuật lại bởi lời của Samuel Sami Perlman, cha của Elio Perlman. Mười năm sau các sự kiện của Call Me By Your Name, Sami Perlman gặp một người phụ nữ trẻ tuổi tên là Miranda khi đi tàu đến Rome. Hai người nhanh chóng trở nên thân thiết và bắt đầu một mối quan hệ lãng mạn. Trong khi ở Rome, cặp đôi đến thăm người cha ốm yếu của Miranda, tham dự một buổi thuyết trình công khai do Sami tổ chức và gặp được Elio.</p> Cadenza <p>Phần thứ hai được thuật lại bởi lời của Elio. Năm năm sau, Elio làm giáo viên dạy piano ở Paris. Tại một buổi hòa nhạc, anh gặp một người đàn ông lớn tuổi tên là Michel, và họ bắt đầu một mối quan hệ lãng mạn. Họ đến thăm ngôi nhà thời thơ ấu của Michel ở vùng nông thôn nước Pháp, và kết thúc mối quan hệ vài tuần sau đó bởi cuối cùng, người cũ trong trái tim anh không thể thay thế.</p>Capriccio <p>Phần thứ ba được thuật lại bởi lời của Oliver. Vài năm sau, Oliver làm giáo sư tại một trường cao đẳng ở New Hampshire. Anh ấy đã lập gia đình và có con, nhưng trong thâm tâm lại nuôi dưỡng nỗi nhớ về khoảng thời gian anh ấy ở bên Elio khi còn là sinh viên đại học. Anh ấy đoàn tụ với Elio ở Ý, và họ kết nối lại một cách lãng mạn. Mặc dù cha của Elio đã chết, ông vẫn có một đứa con với Miranda, đặt tên theo Oliver - Ollie Nhỏ.</p> Da Capo <p>Phần cuối cùng được thuật lại bởi lời của Elio. Elio và Oliver lại ở cùng nhau, cùng nuôi dưỡng Ollie Nhỏ, em trai cùng cha khác mẹ của Elio. Phần kết này diễn ra không lâu sau các sự kiện trong Capriccio.</p>"
+    },
+    {
+      "id": 3,
+      "name": "Con Chim Xanh Biếc Bay Về",
+      "code": "8934974171929",
+      "labelSale": "30%",
+      "author": "Nguyễn Nhật Ánh",
+      "publicYear": 2020,
+      "weight": 350,
+      "size": "20 x 13 cm",
+      "numberPages": 396,
+      "formality": "Bìa mềm",
+      "image": [
+        "/images/product3.jpg"
+      ],
+      "price": "89.000 VNĐ",
+      "countInStock": 5,
+      "categoryId": 4,
+      "publisherId": 2,
+      "description": "<p><h4>Con Chim Xanh Biếc Bay Về</h4></p> <p>Không giống như những tác phẩm trước đây lấy bối cảnh vùng quê miền Trung đầy ắp những hoài niệm tuổi thơ dung dị, trong trẻo với các nhân vật ở độ tuổi dậy thì, trong quyển sách mới lần này nhà văn Nguyễn Nhật Ánh lấy bối cảnh chính là Sài Gòn – Thành phố Hồ Chí Minh nơi tác giả sinh sống (như là một sự đền đáp ân tình với mảnh đất miền Nam). Các nhân vật chính trong truyện cũng “lớn” hơn, với những câu chuyện mưu sinh lập nghiệp lắm gian nan thử thách của các sinh viên trẻ đầy hoài bão. Tất nhiên không thể thiếu những câu chuyện tình cảm động, kịch tính và bất ngờ khiến bạn đọc ngẩn ngơ, cười ra nước mắt. Và như trong mọi tác phẩm Nguyễn Nhật Ánh, sự tử tế và tinh thần hướng thượng vẫn là điểm nhấn quan trọng trong quyển sách mới này.</p> <p>Như một cuốn phim “trinh thám tình yêu”, <b>Con chim xanh biếc bay</b> về dẫn bạn đi hết từ bất ngờ này đến tò mò suy đoán khác, để kết thúc bằng một nỗi hân hoan vô bờ sau bao phen hồi hộp nghi kỵ đến khó thở.</p> <p>Bạn sẽ theo phe sinh viên-nhân viên với những câu thơ dịu dàng và đáo để, hay phe ông chủ với những kỹ năng kinh doanh khởi nghiệp? Và hãy đoán thử, điều gì khiến bạn có thể cảm động đến rưng rưng trong cuộc sống giữa Sài Gòn bộn bề?</p> <p>Lâu lắm mới có hình ảnh thành phố rộn ràng trong tác phẩm của Nguyễn Nhật Ánh - điều hấp dẫn khác thường của <strong>Con chim xanh biếc bay về</strong>.</p> <p>Chính vì thế mà cuốn sách chỉ có một cách đọc thôi: một mạch từ đầu đến cuối!</p>"
+    },
+    {
+      "id": 4,
+      "name": "Hạnh Nhân",
+      "code": "8934974171930",
+      "labelSale": "24%",
+      "author": "Sohn Won Pyung",
+      "publicYear": 2019,
+      "weight": 250,
+      "size": "20.5 x 13 cm",
+      "numberPages": 243,
+      "formality": "Bìa mềm",
+      "image": [
+        "/images/product4.jpg",
+        "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/hanh_nhan/2020_03_19_14_04_05_2.jpg",
+        "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/hanh_nhan/2020_03_19_14_04_05_5.jpg"
+      ],
+      "price": 89,
+      "countInStock": 5,
+      "categoryId": 1,
+      "publisherId": 2,
+      "description": "<p><h4>Hạnh Nhân.</h4></p> <p>Một cái hạch hạnh nhân nhỏ bất thường khiến Yoon Jae phải sống một cuộc đời khác biệt: không cảm nhận và cũng không biết cách bộc lộ những cảm xúc cơ bản nhất của con người.Mỗi ngày đến trường với cậu là những bước đi cẩn trọng nép trong vô vàn “giáo án” đã chuẩn bị sẵn để sống sót được với xung quanh. Nhưng rồi một ngày, số phận gửi Gon tới như một sứ giả. Gon, hoàn toàn trái ngược với cậu, có thể cảm nhận và bộc phát mãnh liệt mọi cung bậc cảm xúc bằng từng tế bào cơ thể…</p> <p>Hai thế giới sở hữu hai hạch hạnh nhân kích cỡ quá chênh lệch khi va chạm thì sẽ thế nào? Tương tàn, hủy diệt hay hàn gắn, kết nối? Câu trả lời trực diện, thẳng thắn mà vẫn bất ngờ và cực kỳ khó quên nằm ngay trong gói Hạnh nhân đang chỉ chờ bạn bóc ra và thưởng thức này đấy!</p> <p>“Một cuốn sách có khả năng lay động mạnh mẽ, sẽ đánh thức cả những nỗi đau và lòng đồng cảm tiềm ẩn trong mỗi độc giả.”</p>"
+    },
+    {
+      "id": 5,
+      "name": "999 Lá Thư Gửi Cho Chính Mình",
+      "code": 8935235226272,
+      "labelSale": "15%",
+      "author": "Miêu Công Tứ",
+      "publicYear": 2021,
+      "weight": 220,
+      "size": "20.5 x 13 cm",
+      "numberPages": 227,
+      "formality": "Bìa mềm",
+      "image": [
+        "/images/product5.jpg",
+        "https://cdn0.fahasa.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/i/m/image_195509_1_34373.jpg"
+      ],
+      "price": 68,
+      "countInStock": 5,
+      "categoryId": 2,
+      "publisherId": 3,
+      "description": "<p>“999 lá thư gửi cho chính mình” là một tác phẩm đặc biệt đầy cảm hứng đến từ tác giả văn học mạng nổi tiếng Miêu Công Tử, mang một màu sắc riêng biệt qua những lời thư nhỏ nhắn nhủ đến người đọc về giá trị cuộc sống, tình yêu, tuổi trẻ, tương lai… v.v.. đã làm lay động trái tim của hàng vạn độc giả trẻ. Cầm trên tay cuốn sách “999 lá thư gửi cho chính mình” – bạn sẽ hiểu rằng: tuổi trẻ của chúng ta dù có mong manh đến đâu thì cũng sẽ thành công vượt qua mọi khó khăn một cách mạnh mẽ ngoài sức tưởng tượng. Một ngày nào đó, bạn sẽ cảm nhận được hạnh phúc, tự tin của chính bản thân và học được cách mỉm cười trước những nỗi đau của quá khứ. Bạn sẽ biết cách nói lời cảm ơn với những ai đã rời bỏ bạn, hiểu ra rằng họ không phải người thích hợp để cùng đồng hành với bạn trên đoạn đường chông gai đi tới tương lai. Đôi lúc bạn có thể yếu đuối mỏi mệt rơi nước mắt, thế nhưng khi bất chợt nhìn lại, bạn sẽ thấy thì ra mình đã rất mạnh mẽ, dũng cảm đi hết cả một quãng đường dài.</p> <p>“999 lá thư gửi cho chính mình” – Mong bạn trở thành phiên bản hoàn hảo nhất. Cái gọi là vẻ đẹp nội tâm luôn luôn tốt hơn vẻ bề ngoài hào nhoáng, hy vọng bạn sẽ mãi luôn kiên cường, dũng cảm đứng ở nơi ánh sáng chiếu rọi, sống tốt một cuộc sống mà mình hằng mong ước.</p>"
+    },
+    {
+      "id": 6,
+      "name": "Colorful",
+      "code": 8935235226272,
+      "author": "Vũ Ngọc Bích",
+      "publicYear": 2021,
+      "weight": 234,
+      "size": "20.5 x 13 cm",
+      "numberPages": 445,
+      "formality": "Bìa mềm",
+      "image": [
+        "/images/product6.jpg",
+        "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/colorful/2019_09_19_14_46_36_2.jpg"
+      ],
+      "price": 55,
+      "countInStock": 5,
+      "categoryId": 4,
+      "publisherId": 3,
+      "description": "<p>Colorful OP 100 BEST SELLER</p><p>Có một người phạm tội nặng, chết đi không được luân hồi. </p> <p>Nhưng trong lúc linh hồn người này đang mất trí nhớ và trôi nổi vô định về một nơi tối tăm xứng đáng với cậu ta, thì một thiên sứ cánh trắng xuất hiện, giơ tay chặn lại, thông báo rằng cậu vừa trúng phiên xổ số may mắn của thiên đình, nhận được cơ hội tu hành kiêm tái thử thách. Theo đó, hồn cậu sẽ quay về trần gian, nhập vào xác một người vừa tự sát, ở trọ nhà người ta, nếm trải nhân tình thế thái và xử lý đống hỗn độn mà họ để lại. Mức độ hỗn độn tương đương với mức độ tội lỗi cậu phạm phải trong kiếp trước. Nếu việc tu hành diễn ra thuận lợi, ký ức kiếp trước sẽ dần dần quay về. Giây phút nhớ được tội lỗi mình đã gây ra cũng là lúc kết thúc quá trình ở trọ.</p> <p>Linh hồn cậu sẽ rời khỏi thân xác đi mượn và quay lên thiên giới, thuận lợi đặt chân vào vòng luân hồi, đầu thai sang kiếp khác. Colorful men theo những bất an bình thường mà ai cũng có thể gặp phải trong cuộc sống, nhưng một số người lại thấy chúng quá dị thường, quá kinh khủng, dẫn đến khổ tâm dằn vặt và rồi không thể vượt được qua. Để giải phóng những bình thường ấy, Colorful trình chiếu một giải pháp đặc biệt khác thường. Cuộc đời có muôn vàn nghiệm đúng, người ta tùy ý sống theo cách mình thích, nhưng một khi đã rút lui khỏi nó, thì chẳng còn nghiệm nào cho ta lựa chọn cả. </p>"
+    },
+    {
+      "id": 7,
+      "name": "Đảo Mộng Mơ",
+      "code": 8935235226272,
+      "author": "Nguyễn Nhật Ánh",
+      "publicYear": 2021,
+      "weight": 312,
+      "size": "20.5 x 13 cm",
+      "numberPages": 213,
+      "formality": "Bìa mềm",
+      "image": [
+        "/images/product7.jpg",
+        "https://cdn0.fahasa.com/media/catalog/product/b/i/bia-tr.jpg",
+        "https://cdn0.fahasa.com/media/catalog/product/3/d/3d-_dao_mong_mo_-_obi.jpg",
+        "https://cdn0.fahasa.com/media/catalog/product/d/a/dao_mong_mo_openbook_5-6.jpg"
+      ],
+      "price": 86,
+      "countInStock": 5,
+      "categoryId": 4,
+      "publisherId": 4,
+      "description": "<p>Đảo Mộng Mơ là một lát cắt đời sống của những đứa trẻ lên 10 giàu trí tưởng tượng như tất cả mọi đứa trẻ. Chúng mơ mộng, tưởng tượng, và tự làm hiện thực hóa những khao khát của mình. Câu chuyện bắt đầu từ một đống cát, và được diễn ra theo nhân vật tôi - cu Tin. Có một hòn đảo hoang, trên đảo có Chúa đảo, phu nhân Chúa đảo, và một chàng Thứ... Bảy.</p> Hàng ngày vợ chồng Chúa đảo và Thứ Bảy vẫn phải đi học, nhưng sau giờ học là một thế giới khác, của đảo, của biển có cá mập, và rừng có thú dữ. Hấp dẫn, đầy quyến rũ, có cãi vã, có cai trị, có yêu thương, có ẩu đả, và cả...những nụ hôn! Tuổi thơ trong Đảo Mộng mơ như trong những tác phẩm khác của Nguyễn Nhật Ánh, trong veo và ngọt ngào. Những muốn bé lại bằng cu Tin để được cười, được khóc, được làm Chúa đảo thích đọc sách và biết đánh lại lưu manh, bắt giam kẻ cắp. Để được hiểu rằng, đối với trẻ con, nhu cầu được tôn trọng đôi khi lớn hơn gấp bội so với nhu cầu được yêu thương. Văn Nguyễn Nhật Ánh vẫn luôn thế, trong sáng, dí dỏm, đầy ắp thực tế tâm lý, hành động và ngôn ngữ của trẻ. Hy vọng Đảo Mộng mơ thỏa mãn những khao khát được chơi, được thỏa chí tưởng tượng mà không bị mắng là hâm, là bốc phét của trẻ, cũng như những băn khoăn của các bậc cha mẹ, làm sao có thể giữ gìn sự trong trẻo hồn nhiên mãi cho con mình.</p> <p>Ngay từ khi ra mắt, Đảo mộng mơ đã nhanh chóng nhận được sự quan tâm, yêu thích của đông đảo bạn đọc, là cuốn sách bán chạy nhất tại Hội sách Tp. Hồ Chí Minh năm 2010. Kỷ niệm 10 năm xuất bản lần đầu, Đông A tái bản Đảo mộng mơ với diện mạo mới, đồng thời bổ sung Đôi lời của tác giả.</p> <p>Sách có bìa cứng, ruột in trên giấy Ford IK định lượng 140 gsm.</p>"
+    },
+    {
+      "id": 8,
+      "name": "Dấu Chân Trên Cát",
+      "code": 8935235226272,
+      "labelSale": "20%",
+      "author": "Alexander",
+      "publicYear": 2020,
+      "weight": 360,
+      "size": "20.5 x 13 cm",
+      "numberPages": 233,
+      "formality": "Bìa mềm",
+      "image": [
+        "/images/product8.jpg",
+        "https://cdn0.fahasa.com/media/catalog/product/c/o/combo-8935086854495-8935086852682.jpg",
+        "https://cdn0.fahasa.com/media/catalog/product/d/o/doc_thu_dauchantrencat-5_1.jpg"
+      ],
+      "price": 110,
+      "countInStock": 5,
+      "categoryId": 3,
+      "publisherId": 4,
+      "description": "<p>“Dấu chân trên cát” là tác phẩm được dịch giả Nguyên Phong phóng tác kể về xã hội Ai Cập thế kỷ thứ XIV trước CN, qua lời kể của nhân vật chính -  Sinuhe.</p> <p>Ngày nay, người ta biết đến triều đại các vua chúa Ai Cập thời cổ qua sách vở của người Hy Lạp. Sở dĩ các sử gia Hy Lạp biết được các chi tiết này vì họ đã học hỏi từ người Ai Cập bị đày biệt xứ tên là Sinuhe. Đây là một nhân vật lạ lùng, đã có công mang văn minh Ai Cập truyền vào Hy Lạp khi quốc gia này còn ở tình trạng kém mở mang so với Ai Cập lúc đó.</p> <p>Các sử gia ngày nay đã đưa ra nhiều giả thuyết về nhân vật Sinuhe này. Có người cho rằng ông là một lái buôn đến Hy Lạp lập nghiệp, nhưng làm sao lái buôn lại mở trường dạy học và để lại nhiều tài liệu quý giá như thế được? Từ ngàn xưa,  chỉ riêng giai cấp vua chúa là giáo sĩ mới được hưởng quy chế giáo dục toàn vẹn như vậy mà thôi.</p> <p>Do đó, một số người cho rằng ông thuộc giai cấp giáo sĩ, nhưng việc một giáo sĩ Ai Cập đến mở trường dạy học tại Hy Lạp cũng là điều khó chấp nhận. Mặc dù khi đó văn minh Hy Lạp chưa tiến bộ như Ai Cập nhưng giáo xứ này phát triển rất mạnh, hiển nhiên các giáo sĩ Hy Lạp không thể chấp nhận cho một giáo sĩ ngoại quốc đến mở trường dạy học tại thánh địa Olympia của họ được.</p>"
+    },
+    {
+      "id": 9,
+      "name": "Đi Suốt Đường Vui",
+      "code": 8935235226272,
+      "author": "Vũ Đình Thi",
+      "publicYear": 2021,
+      "weight": 220,
+      "size": "20.5 x 13 cm",
+      "numberPages": 227,
+      "formality": "Bìa mềm",
+      "image": [
+        "/images/product9.jpg",
+        "https://cdn0.fahasa.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/u/o/uoc_cho_con_them___nhung_dieu_uoc_se_theo_con_di_suot_cuoc_doi_2_2018_09_22_11_40_33.jpg"
+      ],
+      "price": 132,
+      "countInStock": 5,
+      "categoryId": 1,
+      "publisherId": 4,
+      "description": "<p>Nhà báo Đỗ Quang Tuấn Hoàng có cơ duyên gặp gỡ với tất cả những nhân vật xuất hiện trong cuốn sách này, chắt lọc từ những cuộc trò chuyện, từ sự quan sát tỉ mỉ để phác họa chân dung nhân vật một cách chân thực, gần gũi nhất, làm toát lên niềm vui và vẻ đẹp của mỗi người khi làm việc say mê và cống hiến, bất kể họ là ai, bất kể họ đang làm công việc gì. Từng trang viết của anh hòa quyện giữa sự tinh tế, thong thả mang phong vị Hà Nội – nơi anh sinh ra và lớn lên với sự nhiệt huyết, đam mê của một người trẻ yêu khám phá. Ta có thể cảm nhận được niềm vui của nhân vật và của chính người viết đã truyền sang mình – một kiểu niềm vui “lây lan” rất đáng quý giữa đời sống nhiều xô bồ, lắm lo toan.</p>"
+    },
+    {
+      "id": 10,
+      "name": "Ảo Ảnh Hạnh Phúc",
+      "code": 8935235226272,
+      "author": "Grégoire Delacourt",
+      "publicYear": 2021,
+      "weight": 220,
+      "size": "20.5 x 13 cm",
+      "numberPages": 227,
+      "formality": "Bìa mềm",
+      "image": [
+        "/images/product10.jpg",
+        "https://cdn0.fahasa.com/media/catalog/product/a/o/ao-anh-hanh-phuc-bia-in_001-_1_.jpg",
+        "https://cdn0.fahasa.com/media/catalog/product/a/o/ao-anh-hanh-phuc-bia-in_001-_1_.jpg"
+      ],
+      "price": 100,
+      "countInStock": 5,
+      "categoryId": 1,
+      "publisherId": 4,
+      "description": "<p><h4>Tác phẩm</h4></p> <p>Antoine là chuyên gia ngành bảo hiểm. Từ lâu, rất lâu, anh làm công việc xem xét, định giá bồi thường cho sinh mạng của người khác. Một đêm, anh bỗng quan tâm đến cuộc đời của chính mình, tự hỏi giá trị thật của nó là gì. Qua dòng hồi tưởng về cuộc đời của mình, Antoine hiện lên là một người đàn ông bất hạnh khi ngay từ nhỏ đã không nhận được tình yêu thương của mẹ và khi trưởng thành thì cuộc đời của anh cũng trượt dài trong những thất bại: hôn nhân đổ vỡ, mất quyền nuôi con...</p> <p><h4>Tác giả</h4></p> <p>Grégoire Delacourt sinh năm 1960 tại Valenciennes, nước Pháp. Ông từng tốt nghiệp ngành Luật nhưng lại thành danh trong lĩnh vực quảng cáo. Tiểu thuyết đầu tay của ông đã giành năm giải thưởng văn học. Tác phẩm thứ hai Chỉ là mơ ước thôi sau khi ra mắt đã thành công vang dội, mang về “bạc tỷ” cho tác giả (hơn 1 triệu bản in bán hết, được dịch ra 33 thứ tiếng, được chuyển thể thành phim) và đưa tên tuổi Grégoire Delacourt ra toàn thế giới.</p> <p><i>Ảo ảnh hạnh phúc</i> nằm trong danh sách đầu tiên của giải Goncourt 2014, lọt vào danh sách thứ hai của giải Văn chương 2015 và đứng vị trí thứ 2 trong bảng xếp hạng giải Goncourt Trung học. Tác phẩm được tờ báo Parisien bình chọn là “tiểu thuyết xuất sắc nhất 2014”, và được chuyển thể sân khấu khóa năm 2017.</p>"
+    },
+    {
+      "id": 11,
+      "name": "Đắc Nhân Tâm",
+      "code": 8935235226272,
+      "author": "Dale Carnegie",
+      "publicYear": 2021,
+      "weight": 220,
+      "size": "20.5 x 13 cm",
+      "numberPages": 227,
+      "formality": "Bìa mềm",
+      "image": [
+        "https://cdn0.fahasa.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/9/5/9558a365adde6688d4c71a200d78310c.jpg",
+        "https://cdn0.fahasa.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/9/5/9558a365adde6688d4c71a200d78310c.jpg",
+        "https://cdn0.fahasa.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/9/5/9558a365adde6688d4c71a200d78310c.jpg"
+      ],
+      "price": 179,
+      "countInStock": 5,
+      "categoryId": 3,
+      "publisherId": 2,
+      "description": "<p><b>Tại sao Đắc Nhân Tâm luôn trong Top sách bán chạy nhất thế giới?</b></p> <p>Bởi vì đó là cuốn sách MỌI NGƯỜI ĐỀU NÊN ĐỌC.</p> <p>Hiện nay có một sự hiểu nhầm đã xảy ra. Tuy Đắc Nhân Tâm là tựa sách hầu hết mọi người đều biết đến, vì những danh tiếng và mức độ phổ biến, nhưng một số người lại “ngại” đọc. Lý do vì họ tưởng đây là cuốn sách “dạy làm người” nên có tâm lý e ngại. Có lẽ là do khi giới thiệu về cuốn sách, người ta luôn gắn với miêu tả đây là “nghệ thuật đối nhân xử thế”, “nghệ thuật thu phục lòng người”… Những cụm từ này đã không còn hợp với hiện nay nữa, gây cảm giác xa lạ và không thực tế.</p> <p>Nhưng đâu phải thế, Đắc Nhân Tâm là cuốn sách không hề lỗi thời!</p> <p>Những vấn đề được chỉ ra trong đó đều là căn bản ứng xử giữa người với người. Nếu diễn giải theo từ ngữ bây giờ, có thể gọi đây là “giáo trình” giúp hiểu mình – hiểu người để thành công trong giao tiếp. Có ai sống mà không cần giao tiếp? Có bao nhiêu người ngày ngày mệt mỏi, khổ sở vì gặp phải các vấn đề trong giao tiếp? Vì thế, Đắc Nhân Tâm chính là cuốn sách dành cho mọi người. Con cái nên đọc – cha mẹ càng nên đọc, nhân viên nên đọc – sếp càng nên đọc, người quen nhau nên đọc – người lạ nhau càng nên đọc…. Và đó mới chính thật là lý do Đắc Nhân Tâm luôn lọt vào Top sách bán chạy nhất thế giới, dù đã ra đời cách đây gần 80 năm.</p>"
+    },
+    {
+      "id": 12,
+      "name": "Thay Đổi Cuộc Sống Với Nhân Số Học",
+      "code": 8935235226272,
+      "author": "Lê Đỗ Quỳnh Hương",
+      "publicYear": 2021,
+      "weight": 220,
+      "size": "20.5 x 13 cm",
+      "numberPages": 366,
+      "formality": "Bìa mềm",
+      "image": [
+        "https://cdn0.fahasa.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/t/d/tdcsvnsh.jpg",
+        "https://cdn0.fahasa.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/t/d/tdcsvnsh.jpg",
+        "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/thay_doi_cuoc_song_voi_nhan_so_hoc/2020_10_19_17_17_49_2.jpg"
+      ],
+      "price": 68,
+      "countInStock": 5,
+      "categoryId": 3,
+      "publisherId": 2,
+      "description": "<p><h4>Thay Đổi Cuộc Sống Với Nhân Số Học</h4></p> <p><b>Cuốn sách Thay đổi cuộc sống với Nhân số học là tác phẩm được chị Lê Đỗ Quỳnh Hương phát triển từ tác phẩm gốc “The Complete Book of Numerology” của tiến sỹ David A. Phillips, khiến bộ môn Nhân số học khởi nguồn từ nhà toán học Pythagoras trở nên gần gũi, dễ hiểu hơn với độc giả Việt Nam.</b></p> <p>Đầu năm 2020, chuỗi chương trình “Thay đổi cuộc sống với Nhân số học” của  biên tập viên, người dẫn chương trình quen thuộc tại Việt Nam Lê Đỗ Quỳnh Hương ra đời trên Youtube, với mục đích chia sẻ kiến thức, giúp mọi người tìm hiểu và phát triển, hoàn thiện bản thân, các mối quan hệ xã hội thông qua bộ môn Nhân số học. Chương trình đã nhận được sự yêu mến và phản hồi tích cực của rất nhiều khán giả và độc giả sau mỗi tập phát sóng.</p> <p> Có thể xem, Nhân số học là một bộ môn Khám phá Bản thân (Self-Discovery), đọc vị về số. Bộ môn này giúp giải mã những tín hiệu mà cuộc sống đã gửi đến từng cá thể con người trong đời sống, tương tự như Nhân tướng học hay Nhân trắc học…Khi nghiêm túc nghiên cứu sự tồn tại và mối tương quan giữa các con số xuất hiện trong ngày, tháng, năm sinh của mỗi người qua Nhân số học, ta có thể hiểu được khá nhiều về bản thân mình, cũng như mối quan hệ của mình với người khác. Nếu hiểu những 'mật mã' nằm ẩn dưới những con số, chúng ta có thể kiểm soát cuộc sống của mình, điều chỉnh chúng theo hướng ngày càng tốt đẹp hơn, phù hợp với năng lực, tính cách của mình hơn.</p>"
+    },
+    {
+      "id": 13,
+      "name": "Tuổi Trẻ Đáng Giá Bao Nhiêu",
+      "code": 8935235226272,
+      "author": "Rosie Nguyễn",
+      "publicYear": 2021,
+      "weight": 220,
+      "size": "20.5 x 13 cm",
+      "numberPages": 222,
+      "formality": "Bìa mềm",
+      "image": [
+        "https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_180164_2_287.jpg",
+        "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/tuoi_tre_dang_gia_bao_nhieu_tai_ban_2018/2019_11_05_09_19_54_2.jpg",
+        "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/tuoi_tre_dang_gia_bao_nhieu_tai_ban_2018/2019_11_05_09_19_54_6.jpg"
+      ],
+      "price": 160,
+      "countInStock": 5,
+      "categoryId": 3,
+      "publisherId": 2,
+      "description": "<p>“Bạn hối tiếc vì không nắm bắt lấy một cơ hội nào đó, chẳng có ai phải mất ngủ.</p> <p>Bạn trải qua những ngày tháng nhạt nhẽo với công việc bạn căm ghét, người ta chẳng hề bận lòng.</p> <p>Bạn có chết mòn nơi xó tường với những ước mơ dang dở, đó không phải là việc của họ.</p> <p>Suy cho cùng, quyết định là ở bạn. Muốn có điều gì hay không là tùy bạn.</p> <p>Nên hãy làm những điều bạn thích. Hãy đi theo tiếng nói trái tim. Hãy sống theo cách bạn cho là mình nên sống.</p> <p>Vì sau tất cả, chẳng ai quan tâm.”/p> <p>“Tôi đã đọc quyển sách này một cách thích thú. Có nhiều kiến thức và kinh nghiệm hữu ích, những điều mới mẻ ngay cả với người gần trung niên như tôi. <i>Tuổi trẻ đáng giá bao nhiêu?</i> được tác giả chia làm 3 phần: HỌC, LÀM, ĐI. Nhưng tôi thấy cuốn sách còn thể hiện một phần thứ tư nữa, đó là ĐỌC. Hãy đọc sách, nếu bạn đọc sách một cách bền bỉ, sẽ đến lúc bạn bị thôi thúc không ngừng bởi ý muốn viết nên cuốn sách của riêng mình. Nếu tôi còn ở tuổi đôi mươi, hẳn là tôi sẽ đọc <i>Tuổi trẻ đáng giá bao nhiêu?</i> nhiều hơn một lần.” - Đặng Nguyễn Đông Vy, tác giả, nhà báo</p>"
+    },
+    {
+      "id": 14,
+      "name": "Khéo Ăn Khéo Nói Sẽ Có Được Thiên Hạ",
+      "code": 8935232226272,
+      "author": "Đặng Ngọc Vũ",
+      "publicYear": 2021,
+      "weight": 125.5,
+      "size": "20.5 x 13 cm",
+      "numberPages": 227,
+      "formality": "Bìa mềm",
+      "image": [
+        "https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/b/i/bia_26_8.jpg",
+        "https://cdn0.fahasa.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/3/_/3_18_5.jpg",
+        "https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/b/i/bia_26_8.jpg"
+      ],
+      "price": 170,
+      "countInStock": 5,
+      "categoryId": 3,
+      "publisherId": 2,
+      "description": "<p><h4>Khéo Ăn Nói Sẽ Có Được Thiên Hạ<h4></h4></p> <p>Xã hội hiện đại, từ xin việc đến thăng chức, từ tình yêu đến hôn nhân, từ giao lưu đến hợp tác… không việc gì không cần tài ăn nói.</p> <p>Khéo ăn nói giống như sở hữu loại “dầu bôi trơn” đảm bảo các mối quan hệ của bạn “vận hành” trơn tru. Không khéo ăn nói, gặp chuyện nhỏ mắc trở ngại, gặp chuyện lớn vấp thất bại.</p> <p>Làm thế nào để nói năng trôi chảy? Làm thế nào để nói lời “đi vào lòng người”? Trong những dịp khác nhau, với những người khác nhau, ở những tình huống không giống nhau… có cuốn sách này gợi ý, bạn sẽ thành người khéo ăn nói.</p>"
+    },
+    {
+      "id": 15,
+      "name": "Yêu - Being In Love",
+      "code": 8935235226272,
+      "author": "OSHO",
+      "publicYear": 2021,
+      "weight": 220,
+      "size": "20.5 x 13 cm",
+      "numberPages": 227,
+      "formality": "Bìa mềm",
+      "image": [
+        "https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/b/e/beinglove.jpg"
+      ],
+      "price": "150.000 VNĐ",
+      "countInStock": 5,
+      "categoryId": 3,
+      "publisherId": 2,
+      "description": "<p>Trong “Yêu” (Tựa gốc: Being in Love), Osho dẫn người đọc vào một hành trình tìm hiểu táo bạo và đầy sôi nổi về “hiện tượng bí ẩn” mang tên tình yêu.  <i><b>“Điều bạn cần làm không phải là học cách yêu, mà là loại bỏ những cách đánh mất tình yêu”</b></i>, ông mở đầu. Trước tiên, Osho đưa ra một danh sách những điều <i>“không phải là tình yêu”</i>. Ông phân tích những nhu cầu đi kèm tình yêu thương đã phá hủy tình yêu ra sao, điều này diễn ra kể từ khi con người mới chào đời cho đến khi trưởng thành. Những thói quen đòi hỏi, mong muốn sở hữu người khác, kỳ vọng vào người khác… đều tạo nên sự hủy diệt và xung đột trong mọi mối quan hệ tình cảm, bao gồm cả tình yêu. Theo ông, tình yêu không bao gồm cảm giác ghen tuông, chiếm hữu, cạnh tranh, phụ thuộc, hay việc đòi hỏi người mình yêu phải hoàn hảo. Những điều trên đều khởi nguồn từ cái tôi, và Osho cho rằng: <i>“Khi bạn thật sự yêu ai đó, cái tôi của bạn bắt đầu tan chảy và biến mất”</i>.</p>"
+    },
+    {
+      "id": 16,
+      "name": "Trên Đường Băng",
+      "code": 8935235226272,
+      "author": "Tony Buổi Sáng",
+      "publicYear": 2021,
+      "weight": 220,
+      "size": "20.5 x 13 cm",
+      "numberPages": 227,
+      "formality": "Bìa mềm",
+      "image": [
+        "https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/t/r/trenduongbang.jpg",
+        "https://cdn0.fahasa.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/t/r/tren_duong_bang_tai_ban_2017_2_2018_11_16_11_02_25.JPG"
+      ],
+      "price": "227.000 VNĐ",
+      "countInStock": 5,
+      "categoryId": 3,
+      "publisherId": 2,
+      "description": "<p><h4>Trên Đường Băng</h4></p> <p>TRÊN ĐƯỜNG BĂNG là cuốn sách tập hợp những bài viết truyền cảm hứng và hướng dẫn kỹ năng cho các bạn trẻ khi chuẩn bị bước vào đời.</p> <p>Cuốn Trên Đường Băng được chia làm 3 phần: “Chuẩn bị hành trang”, “Trong phòng chờ sân bay” và “Lên máy bay”, tương ứng với những quá trình một bạn trẻ phải trải qua trước khi “cất cánh” trên đường băng cuộc đời, bay vào bầu trời cao rộng.</p> <p>Xuất phát từ cái tâm trong sáng của người đi trước dày dặn kinh nghiệm, kiến thức, Tony Buổi Sáng mang đến đọc giả những bài viết hài ước, tinh tế, sinh động và đầy thiết thực. Cuốn Trên Đường Băng với những bài viết về thái độ với sự học và kiến thức nói chung, cách ứng phó với những trắc trở thử thách khi đi làm, cách sống hào sảng nghĩa tình văn minh… truyền cảm hứng cho các bạn trẻ sống hết mình, trọn vẹn từng phút giây và sẵn sàng cho hành trang cuộc sống.</p> <p>Trên Đường Băng của Tony Buổi Sáng tuy hướng đến những đọc giả là những người trẻ nhưng những người lớn hơn vẫn để hiểu hơn, và có cách nhìn nhận cũng như giáo dục con em mình tốt nhất thay vì bảo vệ con quá kĩ trở nên yếu ớt và thiếu tự lập. Và để yêu thương “khoa học” nhất. Đây cũng là cuốn sách mà những người đi làm nên sở hữu để nhìn lại chặng đường mình đã đi qua, suy ngẫm và thay đổi vì chưa bao giờ là quá muộn.</p> <p>Một cuốn sách với nhiều điều để bạn học hỏi, suy ngẫm và chuẩn bị tốt nhất cho hành trang trên con đường tuổi trẻ của chính mình.</p>"
+    },
+    {
+      "id": 17,
+      "name": "Yêu Những Điều Không Hoàn Hảo",
+      "code": 8935235226272,
+      "author": "Hae Min",
+      "publicYear": 2021,
+      "weight": 220,
+      "size": "20.5 x 13 cm",
+      "numberPages": 227,
+      "formality": "Bìa mềm",
+      "image": [
+        "https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/4/c/4ceb6ba3bd81614df8ff4c1411b11f59.jpg",
+        "https://cdn0.fahasa.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/y/e/yeu_nhung_dieu_khong_hoan_hao_13_2018_09_12_11_14_40.jpg"
+      ],
+      "price": "110.000 VNĐ",
+      "countInStock": 5,
+      "categoryId": 3,
+      "publisherId": 2,
+      "description": "<p><h4>Yêu Những Điều Không Hoàn Hảo</h4></p> <p>“Ngẫm lại cuộc sống của chính mình, ta sẽ nhận thấy rất nhiều điều không hoàn hảo. Trước hết, chỉ nhìn vào bản thân mình thôi ta đã cảm nhận được nhiều thiếu sót rồi: lời nói và hành động mâu thuẫn với nhau, vụng về trong những mối quan hệ xã hội, chuyện học hành, công việc không suôn sẻ như ý muốn. Chưa kể đôi khi ta còn khiến người khác tổn thương, thậm chí còn làm những việc khiến bản thân cảm thấy tội lỗi và hối hận. Và khi nhìn vào những người thân trong gia đình, bạn bè, đồng nghiệp, ta cũng nhận thấy những điều không-hoàn-hảo tương tự như vậy.</p> <p>Nhưng dù đang sống giữa thế gian đầy rẫy những điều không hoàn hảo, ta vẫn không thể ngừng yêu thương chính những điều không hoàn hảo ấy. Cuộc sống rất đáng để trân trọng, ta không thể phí hoài cuộc sống vào việc mỉa mai hay căm ghét thứ gì đó chỉ vì không thể hiểu được nó hoặc nó không vừa ý ta.</p> <p>Mong sao những dòng chữ nhỏ bé của tôi có thể đem đến cho độc giả dũng khí, giúp họ chữa lành vết thương lòng và dành ra cho riêng mình khoảng thời gian để yêu bản thân… Mong sao cuốn sách này sẽ trở thành bàn tay giữ lấy bạn khi bạn rơi vào tuyệt vọng, sẽ trở thành khoảng lặng để bạn tạm dừng chân giữa những hỗn độn ồn ào.” ― Đại đức Hae Min</p>"
+    },
+    {
+      "id": 18,
+      "name": "Hoàng Tử Bé",
+      "code": 8935235226272,
+      "author": "Antoine De Saint-Exupéry",
+      "publicYear": 2021,
+      "weight": 220,
+      "size": "20.5 x 13 cm",
+      "numberPages": 227,
+      "formality": "Bìa mềm",
+      "image": [
+        "https://cdn0.fahasa.com/media/catalog/product/z/3/z3174213431387_33f3f775e394e328ab094e344c516ca5.jpg",
+        "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/hoang_tu_be_tai_ban_2019/2020_10_01_10_09_50_4.jpg",
+        "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/hoang_tu_be_tai_ban_2019/2020_10_01_10_09_50_2.jpg"
+      ],
+      "price": 176,
+      "countInStock": 5,
+      "categoryId": 4,
+      "publisherId": 2,
+      "description": "<p><b>Hoàng tử bé</b> được viết ở New York trong những ngày tác giả sống lưu vong và được xuất bản lần đầu tiên tại New York vào năm 1943, rồi đến năm 1946 mới được xuất bản tại Pháp. Không nghi ngờ gì, đây là tác phẩm nổi tiếng nhất, được đọc nhiều nhất và cũng được yêu mến nhất của Saint-Exupéry. Cuốn sách được bình chọn là tác phẩm hay nhất thế kỉ 20 ở Pháp, đồng thời cũng là cuốn sách Pháp được dịch và được đọc nhiều nhất trên thế giới. Với 250 ngôn ngữ dịch khác nhau kể cả phương ngữ cùng hơn 200 triệu bản in trên toàn thế giới, Hoàng tử bé được coi là một trong những tác phẩm bán chạy nhất của nhân loại. </p>"
+    },
+    {
+      "id": 19,
+      "name": "Chuyện Con Mèo Dạy Hải Âu Bay",
+      "code": 8935235226272,
+      "author": "Luis Sepúlveda",
+      "publicYear": 2021,
+      "weight": 220,
+      "size": "20.5 x 13 cm",
+      "numberPages": 227,
+      "formality": "Bìa mềm",
+      "image": [
+        "https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_188285.jpg",
+        "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/chuyen_con_meo_day_hai_au_bay_tai_ban_2019/2020_03_19_15_56_54_3.jpg",
+        "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/chuyen_con_meo_day_hai_au_bay_tai_ban_2019/2020_03_19_15_56_54_7.jpg",
+        "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/chuyen_con_meo_day_hai_au_bay_tai_ban_2019/2020_03_19_15_56_54_11.jpg"
+      ],
+      "price": 121,
+      "countInStock": 5,
+      "categoryId": 4,
+      "publisherId": 2,
+      "description": "<p><i>Chuyện con mèo dạy hải âu bay</i> là kiệt tác dành cho thiếu nhi của nhà văn Chi Lê nổi tiếng Luis Sepúlveda – tác giả của cuốn Lão già mê đọc truyện tình đã bán được 18 triệu bản khắp thế giới. Tác phẩm không chỉ là một câu chuyện ấm áp, trong sáng, dễ thương về loài vật mà còn chuyển tải thông điệp về trách nhiệm với môi trường, về sự sẻ chia và yêu thương cũng như ý nghĩa của những nỗ lực – “Chỉ những kẻ dám mới có thể bay”.</p> <p>Cuốn sách mở đầu cho mùa hè với minh họa dễ thương, hài hước là món quà dành cho mọi trẻ em và người lớn.</p>"
+    },
+    {
+      "id": 20,
+      "name": "Phải Lòng Với Cô Đơn",
+      "code": 8935235226272,
+      "author": "Kulzsc",
+      "publicYear": 2021,
+      "weight": 220,
+      "size": "20.5 x 13 cm",
+      "numberPages": 227,
+      "formality": "Bìa mềm",
+      "image": [
+        "https://cdn0.fahasa.com/media/catalog/product/i/m/image_189766_1.jpg",
+        "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/phai_long_voi_co_don/2020_05_25_11_57_27_3.JPG",
+        "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/phai_long_voi_co_don/2020_05_25_11_57_27_3.JPG",
+        "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/phai_long_voi_co_don/2020_05_25_11_57_27_8.JPG"
+      ],
+      "price": 79,
+      "countInStock": 5,
+      "categoryId": 1,
+      "publisherId": 1,
+      "description": "<p>Cô đơn ơi, lại đây chơi !</p> <p>Từ cổ chí kim, con người ta sinh ra vốn đã một mình, có người bầu bạn thì tốt mà không có cũng chẳng sao. Ai cũng có thể tự kiếm tiền, tự lo cho bản thân, tự đứng dậy sau những vấp ngã. Buồn thì vui chơi với bạn bè, chán thì đi shopping, rảnh dỗi thì xem dăm ba bộ phim hài... biết bao thú vui có thể tự mình tận hưởng, không có người yêu thì đã làm sao? Nếu cả thế giới cho ta biết có người yêu hạnh phúc thế nào, ta cũng chẳng ngần ngại gì mà cho cả thế giới biết mình cô đơn vui vẻ ra làm sao.</p>"
+    },
+    {
+      "id": 21,
+      "name": "Đừng Nhạt Nữa",
+      "code": 8935235226272,
+      "author": "Ngoa",
+      "publicYear": 2021,
+      "weight": 220,
+      "size": "20.5 x 13 cm",
+      "numberPages": 227,
+      "formality": "Bìa mềm",
+      "image": [
+        "https://cdn0.fahasa.com/media/catalog/product/cache/1/small_image/400x400/9df78eab33525d08d6e5fb8d27136e95/i/m/image_226024.jpg"
+      ],
+      "price": "130.000 VNĐ",
+      "countInStock": 5,
+      "categoryId": 1,
+      "publisherId": 1,
+      "description": "<p><b>Giới thiệu nội dung sách:</b></p> <p>Thanh xuân không ai nhắc bạn rằng:</p> <p>Không ai muốn nghe bạn ba hoa về thu nhập ngoài nhân viên bán bảo hiểm.</p> <p>Không ai chướng mắt với ảnh check-in du lịch của bạn hơn ông sếp ngồi nhà.</p> <p>Thanh xuân không ai nhắc bạn những thứ bạn nên làm, không ai nhắc bạn những thứ bạn nên tin, không ai nhắc bạn chuyện quan trọng nhất để không lãng phí tuổi trẻ là đừng sống nhạt nhoà.</p> <p>Hãy sống mặn mà và tận hưởng sự vui vẻ đi!</p> <p>Sống thật vui vẻ với một ngày trời mưa tầm tã.</p> <p>Sống thật vui vẻ với người họ hàng giả trân.</p> <p>Sống thật vui vẻ với người bạn nợ nần dai như đỉa.</p> <p>Sống thật vui vẻ với deadline dí đầu cùng người sếp khó tính…</p> <p>“Đừng nhạt nữa” - Cuốn sách với sự nhúng tay từ NGOA, tác giả của định nghĩa “Tuesday” (người thứ ba) gây bão cộng đồng mạng, sẽ mang đến cho bạn những tiếng cười không ngớt cũng như nguồn năng lượng tích cực giúp bạn đối mặt với độ phũ của cuộc đời.</p>"
+    },
+    {
+      "id": 22,
+      "name": "Từ Tốt Đến Vĩ Đại - Jim Collins (Tái Bản 2019)",
+      "code": 8934974144618,
+      "author": "Jim Collins",
+      "publicYear": 2021,
+      "weight": 220,
+      "size": "14.5 x 20.5 cm",
+      "numberPages": 422,
+      "formality": "Bìa mềm",
+      "image": [
+        "https://cdn0.fahasa.com/media/catalog/product/n/x/nxbtre_full_09462021_024609.jpg",
+        "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/tu_tot_den_vi_dai___jim_collins_tai_ban_2017/2019_09_19_13_34_25_2.jpg",
+        "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/tu_tot_den_vi_dai___jim_collins_tai_ban_2017/2019_09_19_13_34_25_4.jpg"
+      ],
+      "price": 110,
+      "countInStock": 5,
+      "categoryId": 2,
+      "publisherId": 1,
+      "description": "<p><h4>Từ Tốt Đến Vĩ Đại</h4></p> <p>Jim Collins cùng nhóm nghiên cứu đã miệt mài nghiên cứu những công ty có bước nhảy vọt và bền vững để rút ra những kết luận sát sườn, những yếu tố cần kíp để đưa công ty từ tốt đến vĩ đại. Đó là những yếu tố khả năng lãnh đạo, con người, văn hóa, kỷ luật, công nghệ… Những yếu tố này được nhóm nghiên cứu xem xét tỉ mỉ và kiểm chứng cụ thể qua 11 công ty nhảy vọt lên vĩ đại. Mỗi kết luận của nhóm nghiên cứu đều hữu ích, vượt thời gian, ý nghĩa vô cùng to lớn đối với mọi lãnh đạo và quản lý ở mọi loại hình công ty (từ công ty có nền tảng và xuất phát tốt đến những công ty mới khởi nghiệp), và mọi lĩnh vực ngành nghề. Đây là cuốn sách nên đọc đối với bất kỳ lãnh đạo hay quản lý nào!</p>"
+    },
+    {
+      "id": 23,
+      "name": "Không Bao Giờ Là Thất Bại! Tất Cả Là Thử Thách",
+      "code": 8934974144618,
+      "author": "Chung Ju Yung",
+      "publicYear": 2021,
+      "weight": 220,
+      "size": "14.5 x 20.5 cm",
+      "numberPages": 352,
+      "formality": "Bìa mềm",
+      "image": [
+        "https://cdn0.fahasa.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/u/n/untitled_1_2.jpg",
+        "https://cdn0.fahasa.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/k/h/khongthatbai-thuthach-98k-01.jpg",
+        "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/khong_bao_gio_la_that_bai_tat_ca_la_thu_thach_tai_ban_2019/2020_01_02_10_56_59_1.jpg"
+      ],
+      "price": 299,
+      "countInStock": 5,
+      "categoryId": 2,
+      "publisherId": 4,
+      "description": "<p><b>'Không bao giờ là thất bại! Tất cả là thử thách' Tự truyện nổi tiếng của cố chủ tịch tập đoàn Huyndai</b></p> <p>“Không bao giờ là thất bại! Tất cả là thử thách” thuật lại chi tiết cuộc đời và sự nghiệp của Chung Ju Yung - cố chủ tịch tập đoàn Huyndai. Không chỉ kể lại hành trình và kinh nghiệm của người sáng lập nên một trong những thương hiệu nổi tiếng nhất thế giới mà còn chứa đựng những bài học ấn tượng về quản trị, kinh doanh cũng như đạo làm người, đây là quyển sách gối đầu giường của rất nhiều thế hệ doanh nhân.</p>"
+    },
+    {
+      "id": 24,
+      "name": "Nghĩ Giàu & Làm Giàu (Tái Bản 2020)",
+      "code": 8934974144618,
+      "author": "Napoleon Hill",
+      "publicYear": 2020,
+      "weight": 312,
+      "size": "14.5 x 20.5 cm",
+      "numberPages": 352,
+      "formality": "Bìa mềm",
+      "image": [
+        "https://cdn0.fahasa.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/n/g/nghigiaulamgiau_110k-01_bia-1.jpg"
+      ],
+      "price": "88.000 VNĐ",
+      "countInStock": 5,
+      "categoryId": 2,
+      "publisherId": 3,
+      "description": "<p><b>NGHĨ GIÀU VÀ LÀM GIÀU</b></p> <p>Think and Grow Rich - Nghĩ giàu và làm giàu là một trong những cuốn sách bán chạy nhất mọi thời đại. Đã hơn 60 triệu bản được phát hành với gần trăm ngôn ngữ trên toàn thế giới và được công nhận là cuốn sách tạo ra nhiều triệu phú, một cuốn sách truyền cảm hứng thành công nhiều hơn bất cứ cuốn sách kinh doanh nào trong lịch sử.</p>"
+    },
+    {
+      "id": 25,
+      "name": "Dế Mèn Phiêu Lưu Ký",
+      "code": 8934994144618,
+      "author": "Tô Hoài",
+      "publicYear": 2020,
+      "weight": 200,
+      "size": "19 x 13 cm",
+      "numberPages": 220,
+      "formality": "Bìa mềm",
+      "image": [
+        "https://cdn0.fahasa.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/d/e/de-men-50k_1.jpg",
+        "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/de_men_phieu_luu_ky___tai_ban_2019/2020_03_24_09_40_58_2.JPG",
+        "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/de_men_phieu_luu_ky___tai_ban_2019/2020_03_24_09_40_58_11.JPG"
+      ],
+      "price": 425,
+      "countInStock": 5,
+      "categoryId": 4,
+      "publisherId": 2,
+      "description": "<p><b>Dế Mèn Phiêu Lưu Ký - Tái Bản 2020</b></p> <p>TẤn bản minh họa màu đặc biệt của Dế Mèn phiêu lưu ký, với phần tranh ruột được in hai màu xanh - đen ấn tượng, gợi không khí đồng thoại.</p> <p>“Một con dế đã từ tay ông thả ra chu du thế giới tìm những điều tốt đẹp cho loài người. Và con dế ấy đã mang tên tuổi ông đi cùng trên những chặng đường phiêu lưu đến với cộng đồng những con vật trong văn học thế giới, đến với những xứ sở thiên nhiên và văn hóa của các quốc gia khác. Dế Mèn Tô Hoài đã lại sinh ra Tô Hoài Dế Mèn, một nhà văn trẻ mãi không già trong văn chương...” - Nhà phê bình Phạm Xuân Nguyên</p>"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Sách Văn Học"
+    },
+    {
+      "id": 2,
+      "name": "Sách Kinh Tế"
+    },
+    {
+      "id": 3,
+      "name": "Sách Kỹ Năng"
+    },
+    {
+      "id": 4,
+      "name": "Sách Thiếu Nhi"
+    },
+    {
+      "name": "Sách Viễn Tưởng 2",
+      "id": 5
+    }
+  ],
+  "publishers": [
+    {
+      "id": 1,
+      "name": "NXB Trẻ"
+    },
+    {
+      "id": 2,
+      "name": "NXB Kim Đồng"
+    },
+    {
+      "id": 3,
+      "name": "Nhã Nam"
+    },
+    {
+      "id": 4,
+      "name": "Alphabook"
+    }
+  ],
+  "orders": [
+    {
+      "orderInfo": {
+        "name": "Huỳnh Thành",
+        "email": "hoangthanh99er@gmail.com",
+        "phone": "0763719907",
+        "address": "364 - Điện Biên Phủ, phường Phú Nhuận, Tp.Huế",
+        "totalPrice": 135,
+        "date": "09:24 29/12/2021"
+      },
+      "userId": 5,
+      "cartList": [
+        {
+          "productId": 2,
+          "count": 1,
+          "name": "Tìm Em Nơi Anh - Find Me",
+          "price": 135,
+          "image": [
+            "/images/product2.jpg",
+            "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/tim_em_noi_anh___find_me/2021_03_13_12_08_47_3.jpg",
+            "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/tim_em_noi_anh___find_me/2021_03_13_12_08_47_16.jpg",
+            "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/tim_em_noi_anh___find_me/2021_03_13_12_08_47_2.jpg"
+          ]
+        }
+      ],
+      "status": "confirmed",
+      "id": 6
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Huỳnh Thành",
+      "rate": 5,
+      "review": "sản phẩm này tốt ",
+      "date": "09:23 29/12/2021",
+      "productId": 2,
+      "userId": 5,
+      "id": 10
+    },
+    {
+      "name": "Admin",
+      "rate": 3.5,
+      "review": "Nên đọc sách nha 10đ\n",
+      "date": "01:03 17/12/2022",
+      "productId": 2,
+      "userId": 2,
+      "id": 11
+    },
+    {
+      "name": "Hoang Thanh",
+      "rate": 5,
+      "review": "Quá nhiều cảm xúc hòa lẫn trong tâm trí tôi sau khi đọc xong quyển sách này. Quyển sách là tiếng nói, là nỗi lòng của một đứa trẻ mà theo tôi bất cứ ai khi đọc xong cũng nhận ra rằng tình yêu thương, sự quan tâm có vai trò lớn lao thế nào đối với trẻ. Cậu bé Zezé năm tuổi trong câu chuyện cũng hồn nhiên, trong sáng như Anne tóc đỏ, như cô bé Heidi, cũng có phần nghịch ngợm như thằng nhóc Emil. Cậu bé đã khiến tôi phì cười không ít lần. Dù hay gây ra rắc rối nhưng Zezé là một em bé theo tôi là rất đáng yêu. Truyện đưa ta đến với những trò quậy phá, những vụn vặt ngày thường của cậu bé nhưng không hề nhàm chán chút nào cả. Tôi rất hứng thú khi được đặt bước chân vào thế giới của cậu bé con ấy để hiểu hơn về trẻ, để có thể nuôi dạy con một cách tốt nhất. Tôi lắng nghe từng suy nghĩ, từng câu thoại của cậu bé và càng thấm thía hơn bao giờ hết: Trong trái tim đứa trẻ đôi khi có những con quỷ dữ, hãy đánh đuổi con quỷ ấy đi bằng sự thấu hiểu, bằng tình yêu, sự bao dung chứ không phải là dùng",
+      "date": "01:05 17/12/2022",
+      "productId": 3,
+      "userId": 5,
+      "id": 12
+    },
+    {
+      "name": "Hoang Thanh",
+      "rate": 3.5,
+      "review": "ahihi",
+      "date": "01:05 17/12/2022",
+      "productId": 3,
+      "userId": 5,
+      "id": 13
+    },
+    {
+      "name": "Hoang Thanh",
+      "rate": 5,
+      "review": "Trẻ con vốn dĩ cần được sống vô tư trong sự bảo bọc và bao dung, thay vì gượng ép chúng phải hiểu chuyện và hành xử như một người lớn. Zezé là một đứa trẻ sáng dạ, cậu bé luôn hỏi tất cả những thứ gì cậu muốn biết, cậu có một niềm đam mê đặc biệt với từ ngữ. Khi nghe được một từ nào lạ Zezé đều mong muốn hiểu được ý nghĩa của nó và sử dụng chúng. Cậu cũng là một đứa trẻ có trách nhiệm, ít nhất là trong lời nói. Khi đối diện với cậu em Luis cậu luôn cẩn trọng từng câu, bởi vì cậu không muốn dạy em mình bất kì từ nào không chính xác Vốn là một đứa trẻ hiếu động, những trò tinh nghịch của Zezé luôn khiến cho người khác phiền lòng. Và ắc hẳn cũng vì lý do đó mà cậu bị cho là trong máu có quỷ. Kể cả khi cậu bộc lộ được thiên phú là biết đọc dù không được ai dạy, ấy vậy mà mọi người lại đều cho rằng quỷ sứ đã dạy cậu trong giấc ngủ Có lẽ ít ai nhận thấy ẩn sâu bên trong đứa trẻ tinh nghịch đó là một trái tim vô cùng ấm áp và khát khao có được tình yêu thương. Có hay chăng sự nghịch ngợm của ",
+      "date": "01:05 17/12/2022",
+      "productId": 7,
+      "userId": 5,
+      "id": 14
+    },
+    {
+      "name": "Hoang Thanh",
+      "rate": 4.5,
+      "review": "3",
+      "date": "01:06 17/12/2022",
+      "productId": 7,
+      "userId": 5,
+      "id": 15
+    },
+    {
+      "name": "Hoang Thanh",
+      "rate": 5,
+      "review": "123123123",
+      "date": "01:06 17/12/2022",
+      "productId": 7,
+      "userId": 5,
+      "id": 16
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-container {
+  height: 100%;
+  width: 100%;
+  margin-top: 0px;
+  box-shadow: 1px 3px 6px #9e9494;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 999;
+}
+/* responsive */
+.checkbtn{
+  font-size: 30px;
+  color: black;
+  float: right;
+  line-height: 80px;
+  /* margin-right: 40px; */
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+@media only screen and (max-width: 996px) {
+  .checkbtn{
+    display: block;
+  }
+  .header-nav .header-nav-link {
+    position: fixed;
+    width: 300px;
+    height: 100vh;
+    top: 0px;
+    background: black;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    display: block;
+    transition: all .5s;
+    color: white;
+  }
+  #check:checked ~ .header-nav .header-nav-link{
+    left: 0;
+  }
+  /* .header-nav {
+    display: block;
+  } */
+  .header-logo img {
+    display: none;
+  }
+}
+
+.header-icons {
+  margin: 0 0 0 60px;
+}
+
+.header-container-icon {
+  font-size: 22px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 50px 0;
+}
+.header-logo {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.header-logo h3 {
+  /* font-size: 36px; */
+  /* text-shadow: 5px -2px 3px #635d5dd9; */
+  border: 3px solid var(--black);
+  color: var(--primary);
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding: 0.5rem;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-nav-link {
+  font-size: 18px;
+  padding: 10px 22px;
+  color: black;
+  display: inline-block;
+  font-weight: 400;
+}
+
+.header-nav-link:hover {
+  color: var(--primary);
+  border-bottom: 1px solid var(--primary);
+}
+
+.header-user {
+  display: flex;
+  align-items: center;
+}
+
+.header-user-link {
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  font-size: 22px;
+  padding: 12px 30px;
+  color: black;
+}
+
+.count {
+  justify-content: center;
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  width: 2rem;
+  background-color: var(--primary);
+  height: 2rem;
+  padding: 1.1rem;
+  color: var(--white);
+  font-weight: 400;
+  border-radius: 50%;
+}
+
+.header-user-icon {
+  /* display: flex; */
+  position: relative;
+  font-size: 22px;
+  /* margin-right: 40px; */
+}
+
+.header-user-icon p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.header-user-icon:hover .header-user-acc {
+  display: block;
+}
+
+.item {
+  list-style: none;
+}
+
+.item:hover {
+  color: var(--primary);
+}
+
+.header-user-acc {
+  /* cursor: pointer;
+  font-size: 16px;
+  width: 70px;
+  height: 60px;
+  background-color: rgb(245, 242, 239, 0.1);
+  display: none;
+  position: absolute;
+  top: 23px;
+  right: -8px;
+  z-index: 1;
+  padding: 5px 5px; */
+  box-shadow: rgb(0 0 0 / 10%) 0px 0px 2px;
+  width: 14rem;
+  top: 3rem;
+  font-size: 14px;
+  line-height: 3rem;
+  background-color: white;
+  margin-left: 0rem;
+  border-radius: 0.5rem;
+  display: none;
+  position: absolute;
+  transition: 10s;
+  cursor: pointer;
+  padding: 5px 5px; 
+
+}
+
+/* .header-user-acc > ul {
+  box-shadow: rgb(0 0 0 / 10%) 0px 0px 2px;
+  width: 20rem;
+  top: 8.5rem;
+  line-height: 4.5rem;
+  position: absolute;
+  background-color: whitesmoke;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 300ms ease 0s;
+} */
+
+.link {
+  display: flex;
+}
+
+.header-user-acc .link {
+  display: block;
+  color: black;
+}
+
+/* search button csss */
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 1px solid #d6d3d3;
+  border-right: none;
+  padding: 5px;
+  height: 36px;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+  color: black;
+}
+
+/* .searchTerm:focus{
+  color: #00B4CC;
+} */
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #d6d3d3;
+  background:  var(--white);
+  text-align: center;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+  outline: none;
+}
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 64%;
+  transform: translate(-50%, -50%);
+}

@@ -1,14 +1,29 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
+
+import { createStore, applyMiddleware } from 'redux'
+import { Provider } from 'react-redux'
+import createSagaMiddleware from 'redux-saga'
+import myReducer from './redux/reducers'
+import mySaga from './redux/saga'
+
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'antd/dist/antd.less';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+const sagaMiddleware = createSagaMiddleware();
+const myStore = createStore(myReducer, applyMiddleware(sagaMiddleware))
+
+sagaMiddleware.run(mySaga)
+
+ReactDOM.render(
   <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    <Provider store={myStore}>
+      <App />
+    </Provider>
+  </React.StrictMode>,
+  document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function

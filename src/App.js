@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+/* eslint-disable react-hooks/exhaustive-deps */
+import Router from './Router';
+import React from 'react';
+import { useEffect } from 'react'
+import { connect } from 'react-redux'
+import './App.css'
 
-function App() {
+import { getUserInfoAction } from './redux/actions'
+
+function App({ getUserInfo }) {
+
+  useEffect(() => {
+    const userInfo = JSON.parse(localStorage.getItem('userInfo'))
+    if (userInfo && userInfo.id) {
+      getUserInfo({ id: userInfo.id });
+    }
+  }, [])
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <Router />
     </div>
   );
 }
+const mapDisPatchToProps = (dispatch) => {
+  return {
+    getUserInfo: (params) => dispatch(getUserInfoAction(params)),
+  }
+}
 
-export default App;
+export default connect(null, mapDisPatchToProps)(App);

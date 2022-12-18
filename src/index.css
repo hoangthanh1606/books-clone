@@ -1,13 +1,84 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --primary: #ff4545;
+  --white: #fff;
+  --black: #222;
+  --blue: #4335bd;
+  --grey1: #3a3b3c;
+  --grey2: #828282;
+  --green1: #45c854;
+  --green2: #e5f9e7;
+  --pink: #f53f85;
+  --brown1: #573a08;
+  --brown2: #fffaf3;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body,
+input {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6rem;
+  background-color: var(--white);
+  color: var(--black);
+  font-weight: 400;
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 130rem;
+  margin: 0 auto;
+}
+
+
+
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+
+.section {
+  padding: 5rem 0 5rem 0;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 1200px) {
+  .container-slider,
+  .container {
+    padding: 0 3rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container-slider,
+  .container {
+    max-width: 60rem;
+  }
 }
