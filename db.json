@@ -7,20 +7,7 @@
       "password": "123456",
       "sdt": "0763719907",
       "role": "admin",
-      "carts": [
-        {
-          "productId": 2,
-          "count": 1,
-          "name": "Tìm Em Nơi Anh - Find Me",
-          "price": 135,
-          "image": [
-            "/images/product2.jpg",
-            "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/tim_em_noi_anh___find_me/2021_03_13_12_08_47_3.jpg",
-            "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/tim_em_noi_anh___find_me/2021_03_13_12_08_47_16.jpg",
-            "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/tim_em_noi_anh___find_me/2021_03_13_12_08_47_2.jpg"
-          ]
-        }
-      ],
+      "carts": [],
       "phone": "0763719907",
       "address": "Nguyễn Huy Tưởng",
       "gender": "Nữ",
@@ -37,6 +24,15 @@
       "address": "Hòa Khánh",
       "gender": "Nam",
       "birthday": "23/11/2021"
+    },
+    {
+      "email": "hanhhoang@gmail.com",
+      "password": "1111",
+      "name": "Hanh Hoang",
+      "phone": "0763719907",
+      "role": "user",
+      "carts": [],
+      "id": 6
     }
   ],
   "products": [
@@ -629,6 +625,33 @@
       ],
       "status": "confirmed",
       "id": 6
+    },
+    {
+      "orderInfo": {
+        "name": "Hoàng Thị Mỹ Hạnh",
+        "email": "hanhhoang@gmail.com",
+        "phone": "0763719907",
+        "address": "364 - Điện Biên Phủ, phường Phú Nhuận, Tp.Huế",
+        "totalPrice": 135,
+        "date": "08:35 18/12/2022"
+      },
+      "userId": 5,
+      "cartList": [
+        {
+          "productId": 2,
+          "count": 1,
+          "name": "Tìm Em Nơi Anh - Find Me",
+          "price": 135,
+          "image": [
+            "/images/product2.jpg",
+            "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/tim_em_noi_anh___find_me/2021_03_13_12_08_47_3.jpg",
+            "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/tim_em_noi_anh___find_me/2021_03_13_12_08_47_16.jpg",
+            "https://cdn0.fahasa.com/media/flashmagazine/images/page_images/tim_em_noi_anh___find_me/2021_03_13_12_08_47_2.jpg"
+          ]
+        }
+      ],
+      "status": "waiting",
+      "id": 7
     }
   ],
   "reviews": [
@@ -694,6 +717,15 @@
       "productId": 7,
       "userId": 5,
       "id": 16
+    },
+    {
+      "name": "Hanh Hoang",
+      "rate": 5,
+      "review": "hihi",
+      "date": "09:04 18/12/2022",
+      "productId": 4,
+      "userId": 6,
+      "id": 17
     }
   ]
 }
