@@ -16,7 +16,7 @@
     "react-dom": "^18.2.0",
     "react-redux": "^7.2.3",
     "react-router-dom": "^5.2.0",
-    "carco": "5.0.1",
+    "craco": "5.0.1",
     "react-slick": "^0.28.1",
     "redux": "^4.0.5",
     "redux-saga": "^1.1.3",
@@ -25,10 +25,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "carco start",
-    "build": "carco build",
-    "test": "carco test",
-    "eject": "carco eject",
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "craco eject",
     "server": "node server.js"
   },
   "eslintConfig": {
