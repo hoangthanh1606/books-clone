@@ -8,7 +8,7 @@ function* getProductListAdminSaga(action) {
     const { searchValue } = action.payload;
     const result = yield axios({
       method: "GET",
-      url: "http://localhost:5000/products?_expand=publisher&_expand=category",
+      url: "https://book-shop-eeuz.onrender.com/products?_expand=publisher&_expand=category",
       params: {
         ...searchValue && { q: searchValue },
       }
@@ -34,7 +34,7 @@ function* addProductAdminSaga(action) {
     const { name, description, price, countInStock, categoryId, publisherId, image, code, author, publicYear, weight, size, numberPages, formality } = action.payload
     const addResult = yield axios({
       method: "POST",
-      url: "http://localhost:5000/products",
+      url: "https://book-shop-eeuz.onrender.com/products",
       data: {
         name,
         description,
@@ -62,7 +62,7 @@ function* addProductAdminSaga(action) {
     message.success("Thêm sản phẩm thành công")
     const result = yield axios({
       method: "GET",
-      url: "http://localhost:5000/products?_expand=publisher&_expand=category",
+      url: "https://book-shop-eeuz.onrender.com/products?_expand=publisher&_expand=category",
 
     });
     yield put({
@@ -88,7 +88,7 @@ function* deleteProductAdminSaga(action) {
 
     yield axios({
       method: "DELETE",
-      url: `http://localhost:5000/products/${id}`
+      url: `https://book-shop-eeuz.onrender.com/products/${id}`
     })
 
     yield put({
@@ -112,7 +112,7 @@ function* updateProductAdminSaga(action) {
     const { id, name, price, description, countInStock, categoryId, publisherId, image, code, author, publicYear, weight, size, numberPages, formality } = action.payload
     const updateResult = yield axios({
       method: "PATCH",
-      url: `http://localhost:5000/products/${id}`,
+      url: `https://book-shop-eeuz.onrender.com/products/${id}`,
       data: {
         name,
         price,
@@ -132,7 +132,7 @@ function* updateProductAdminSaga(action) {
     })
     const result = yield axios({
       method: "GET",
-      url: "http://localhost:5000/products?_expand=publisher&_expand=category",
+      url: "https://book-shop-eeuz.onrender.com/products?_expand=publisher&_expand=category",
     });
     yield put({
       type: "GET_PRODUCT_LIST_ADMIN_SUCCESS",

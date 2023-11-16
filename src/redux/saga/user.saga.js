@@ -10,7 +10,7 @@ function* loginSaga(action) {
     const { email, password } = action.payload;
     const result = yield axios({
       method: "GET",
-      url: "http://localhost:5000/users",
+      url: "https://book-shop-eeuz.onrender.com/users",
       params: {
         email,
         password,
@@ -52,12 +52,12 @@ function* loginSaga(action) {
 function* registerSaga(action) {
   try {
     const { email, password, name, phone } = action.payload;
-    const getUser = yield axios.get("http://localhost:5000/users");
+    const getUser = yield axios.get("https://book-shop-eeuz.onrender.com/users");
     const checkUser = getUser.data.find((getUser) => getUser.email === email);
     if (checkUser) {
       message.warning('Email đã tồn tại hoặc đã từng được đăng ký!');
     } else {
-      const result = yield axios.post("http://localhost:5000/users", {
+      const result = yield axios.post("https://book-shop-eeuz.onrender.com/users", {
         email,
         password,
         name,
@@ -89,7 +89,7 @@ function* registerSaga(action) {
 function* getUserInfoSaga(action) {
   try {
     const { id } = action.payload;
-    const result = yield axios.get(`http://localhost:5000/users/${id}`);
+    const result = yield axios.get(`https://book-shop-eeuz.onrender.com/${id}`);
     yield put({
       type: "GET_USER_INFO_SUCCESS",
       payload: {
@@ -112,7 +112,7 @@ function* updateUserSaga(action) {
     const { id, name, email, phone, address, gender, birthday } = action.payload;
     const result = yield axios({
       method: "PATCH",
-      url: `http://localhost:5000/users/${id}`,
+      url: `https://book-shop-eeuz.onrender.com/${id}`,
       data: {
         name, email, phone, address, gender, birthday
       }
@@ -138,7 +138,7 @@ function* changePasswordSaga(action) {
     const { id, password } = action.payload;
     const result = yield axios({
       method: "PATCH",
-      url: `http://localhost:5000/users/${id}`,
+      url: `https://book-shop-eeuz.onrender.com/${id}`,
       data: {
         password
       }
@@ -167,7 +167,7 @@ function* getOrderListUserSaga(action) {
     const { id, } = action.payload;
     const result = yield axios({
       method: "GET",
-      url: `http://localhost:5000/orders?userId=${id}`,
+      url: `https://book-shop-eeuz.onrender.com/orders?userId=${id}`,
 
     })
     yield put({

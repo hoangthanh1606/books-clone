@@ -7,7 +7,7 @@ function* getOrderListAdminSaga(action) {
     const { status } = action.payload
     const result = yield axios({
       method: 'GET',
-      url: "http://localhost:5000/orders",
+      url: "https://book-shop-eeuz.onrender.com/orders",
       params: {
         // ...status && { status },
         status
@@ -34,7 +34,7 @@ function* updateOrderAdminSaga(action) {
     const { id, status } = action.payload
     const result = yield axios({
       method: 'PATCH',
-      url: `http://localhost:5000/orders/${id}`,
+      url: `https://book-shop-eeuz.onrender.com/orders/${id}`,
       data: {
         status
       }

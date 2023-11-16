@@ -10,7 +10,7 @@ function* deleteUserAdminSaga(action) {
 
     yield axios({
       method: "DELETE",
-      url: `http://localhost:5000/users/${id}`
+      url: `https://book-shop-eeuz.onrender.com/users/${id}`
     })
 
     yield put({
@@ -35,7 +35,7 @@ function* editUserAdminSaga(action) {
     const { id, role } = action.payload
     const result = yield axios({
       method: "PATCH",
-      url: `http://localhost:5000/users/${id}`,
+      url: `https://book-shop-eeuz.onrender.com/users/${id}`,
       data: {
         role
       }
@@ -62,7 +62,7 @@ function* getUserListAdminSaga(action) {
   try {
     const result = yield axios({
       method: "GET",
-      url: "http://localhost:5000/users",
+      url: "https://book-shop-eeuz.onrender.com/users",
 
     });
     yield put({
@@ -86,7 +86,7 @@ function* getUserInfoAdminSaga(action) {
     const { id } = action.payload
     const result = yield axios({
       method: "GET",
-      url: `http://localhost:5000/users/${id}`,
+      url: `https://book-shop-eeuz.onrender.com/users/${id}`,
 
     });
     yield put({
@@ -111,7 +111,7 @@ function* updateUserInfoAdminSaga(action) {
     const { id, name, email, phone, address, gender, birthday } = action.payload
     const result = yield axios({
       method: "PATCH",
-      url: `http://localhost:5000/users/${id}`,
+      url: `https://book-shop-eeuz.onrender.com/users/${id}`,
       data: {
         name, email, phone, address, gender, birthday
       }

@@ -6,7 +6,7 @@ function* getProductListSaga(action) {
     const { page, limit, categoryId, publisherId, loadMore,  searchValue, sort, order  } = action.payload;
     const result = yield axios({
       method: "GET",
-      url: "http://localhost:5000/products",
+      url: "https://book-shop-eeuz.onrender.com/products",
       params: {
         _page: page,
         _limit: limit,
@@ -40,7 +40,7 @@ function* getProductDetailSaga(action) {
     const { id } = action.payload;
     const result = yield axios({
       method: "GET",
-      url: `http://localhost:5000/products/${id}?_expand=category&_expand=publisher`, 
+      url: `https://book-shop-eeuz.onrender.com/products/${id}?_expand=category&_expand=publisher`, 
     });
     yield put({
       type: "GET_PRODUCT_DETAIL_SUCCESS",
@@ -57,7 +57,7 @@ function* getCategoryListSaga(action) {
   try {
     const result = yield axios({
       method: "GET",
-      url: "http://localhost:5000/categories",
+      url: "https://book-shop-eeuz.onrender.com/categories",
     });
     yield put({
       type: "GET_CATEGORY_LIST_SUCCESS",
@@ -79,7 +79,7 @@ function* getPublisherListSaga(action) {
   try {
     const result = yield axios({
       method: "GET",
-      url: "http://localhost:5000/publishers",
+      url: "https://book-shop-eeuz.onrender.com/publishers",
     });
     yield put({
       type: "GET_PUBLISHER_LIST_SUCCESS",
@@ -104,7 +104,7 @@ function* getProductSameSaga(action) {
     // bên này lấy key categoryId
     const result = yield axios({
       method: "GET",
-      url: `http://localhost:5000/products?categoryId=${categoryId}`,
+      url: `https://book-shop-eeuz.onrender.com/products?categoryId=${categoryId}`,
     });
     // console.log("function*getProductSameSaga -> result", result)
     yield put({

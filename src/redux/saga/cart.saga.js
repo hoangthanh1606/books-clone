@@ -6,7 +6,7 @@ function* addToCartSaga(action) {
     const { userId, carts } = action.payload;
     const result = yield axios({
       method: "PATCH",
-      url: `http://localhost:5000/users/${userId}`,
+      url: `https://book-shop-eeuz.onrender.com/users/${userId}`,
       data: {
         carts: carts,
       },
@@ -32,7 +32,7 @@ function* deleteItemCartSaga(action) {
     const { userId, carts } = action.payload;
     const result = yield axios({
       method: "PATCH",
-      url: `http://localhost:5000/users/${userId}`,
+      url: `https://book-shop-eeuz.onrender.com/users/${userId}`,
       data: {
         carts: carts,
       },

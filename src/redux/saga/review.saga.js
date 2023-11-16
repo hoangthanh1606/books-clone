@@ -6,7 +6,7 @@ function* getReviewListSaga(action) {
     const {productId} = action.payload
     const result = yield axios({
       method: "GET",
-      url: 'http://localhost:5000/reviews',
+      url: 'https://book-shop-eeuz.onrender.com/reviews',
       params: {
         productId,
         _sort: 'id',
@@ -34,7 +34,7 @@ function* addToReviewSaga(action) {
     const { newReview, userId, productId} = action.payload;
     const result = yield axios({
       method: "POST",
-      url: 'http://localhost:5000/reviews',
+      url: 'https://book-shop-eeuz.onrender.com/reviews',
       data: {
         ...newReview,
         productId,
@@ -61,7 +61,7 @@ function* getAllReviewListSaga(action) {
   try {
     const result = yield axios({
       method: 'GET',
-      url: `http://localhost:5000/reviews`,
+      url: `https://book-shop-eeuz.onrender.com/reviews`,
       params: {
         _sort: "id",
         _order: "desc"

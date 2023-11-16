@@ -7,7 +7,7 @@ function* addToOrderSaga(action) {
     const {orderInfo, userId, cartList, status} = action.payload
     const result = yield axios({
       method: "POST",
-      url: `http://localhost:5000/orders`,
+      url: `https://book-shop-eeuz.onrender.com/orders`,
       data: {
         orderInfo,
         userId,
@@ -17,7 +17,7 @@ function* addToOrderSaga(action) {
     });
     yield axios({
       method: "PATCH",
-      url: `http://localhost:5000/users/${userId}`,
+      url: `https://book-shop-eeuz.onrender.com/orders/${userId}`,
       data: {
         carts: [],
       },

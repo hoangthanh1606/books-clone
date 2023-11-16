@@ -19,7 +19,19 @@
       "name": "Hoang Thanh",
       "phone": "0763719907",
       "role": "user",
-      "carts": [],
+      "carts": [
+        {
+          "productId": 11,
+          "count": 1,
+          "name": "Đắc Nhân Tâm",
+          "price": 179,
+          "image": [
+            "https://cdn0.fahasa.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/9/5/9558a365adde6688d4c71a200d78310c.jpg",
+            "https://cdn0.fahasa.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/9/5/9558a365adde6688d4c71a200d78310c.jpg",
+            "https://cdn0.fahasa.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/9/5/9558a365adde6688d4c71a200d78310c.jpg"
+          ]
+        }
+      ],
       "id": 5,
       "address": "Hòa Khánh",
       "gender": "Nam",
@@ -94,7 +106,7 @@
       "image": [
         "/images/product3.jpg"
       ],
-      "price": "89.000 VNĐ",
+      "price": 89,
       "countInStock": 5,
       "categoryId": 4,
       "publisherId": 2,

@@ -7,7 +7,7 @@ function* getCategoryAdminSaga(action) {
     const { searchValue } = action.payload;
     const result = yield axios({
       method: "GET",
-      url: "http://localhost:5000/categories",
+      url: "https://book-shop-eeuz.onrender.com/categories",
       params: {
         ...searchValue && { q: searchValue },
       }
@@ -33,7 +33,7 @@ function* createCategoryAdminSaga(action) {
     const { name } = action.payload
     const result = yield axios({
       method: "POST",
-      url: "http://localhost:5000/categories",
+      url: "https://book-shop-eeuz.onrender.com/categories",
       data: {
         name
       }
@@ -62,7 +62,7 @@ function* deleteCategoryAdminSaga(action) {
     const { id } = action.payload
     const result = yield axios({
       method: "DELETE",
-      url: `http://localhost:5000/categories/${id}`
+      url: `https://book-shop-eeuz.onrender.com/categories/${id}`
     })
     yield put({
       type: "DELETE_CATEGORY_ADMIN_SUCCESS",
@@ -86,7 +86,7 @@ function* updateCategoryAdminSaga(action) {
     const { id, name } = action.payload
     const result = yield axios({
       method: "PATCH",
-      url: `http://localhost:5000/categories/${id}`,
+      url: `https://book-shop-eeuz.onrender.com/categories/${id}`,
       data: {
         name
       }
@@ -114,7 +114,7 @@ function* getPublisherAdminSaga(action) {
     const { searchValue } = action.payload;
     const result = yield axios({
       method: "GET",
-      url: "http://localhost:5000/publishers",
+      url: "https://book-shop-eeuz.onrender.com/publishers",
       params: {
         ...searchValue && { q: searchValue },
       }
@@ -141,7 +141,7 @@ function* createPublisherAdminSaga(action) {
     const { name } = action.payload
     const result = yield axios({
       method: "POST",
-      url: "http://localhost:5000/publishers",
+      url: "https://book-shop-eeuz.onrender.com/publishers",
       data: {
         name
       }
@@ -169,7 +169,7 @@ function* updatePublisherAdminSaga(action) {
     const { id, name } = action.payload
     const result = yield axios({
       method: "PATCH",
-      url: `http://localhost:5000/publishers/${id}`,
+      url: `https://book-shop-eeuz.onrender.com/publishers/${id}`,
       data: {
         name
       }
@@ -197,7 +197,7 @@ function* deletePublisherAdminSaga(action) {
     const { id } = action.payload
     const result = yield axios({
       method: "DELETE",
-      url: `http://localhost:5000/publishers/${id}`
+      url: `https://book-shop-eeuz.onrender.com/publishers/${id}`
     })
     yield put({
       type: "DELETE_PUBLISHER_ADMIN_SUCCESS",
