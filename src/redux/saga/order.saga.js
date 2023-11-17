@@ -17,7 +17,7 @@ function* addToOrderSaga(action) {
     });
     yield axios({
       method: "PATCH",
-      url: `https://book-shop-eeuz.onrender.com/orders/${userId}`,
+      url: `https://book-shop-eeuz.onrender.com/users/${userId}`,
       data: {
         carts: [],
       },

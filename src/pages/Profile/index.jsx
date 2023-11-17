@@ -120,7 +120,7 @@ function Profile({ getUserInfo, userInfo, updateUser, changePassword, getOrderLi
 
   return (
     <>
-      <div style={{ height: "400px", margin: "20px 30px" }}>
+      <div style={{ margin: "20px 30px" }}>
         <Tabs tabPosition="left" defaultActiveKey="1" >
           <TabPane tab="Thông tin cá nhân" key="1">
             <>
@@ -346,7 +346,7 @@ function Profile({ getUserInfo, userInfo, updateUser, changePassword, getOrderLi
                 <p>Danh sách lịch sử giao dịch của bạn</p>
               </div>
               <div>
-                <Table columns={tableColumns} dataSource={dataTable} />
+                <Table columns={tableColumns} dataSource={dataTable} scroll={{ y: 450 }} />
 
               </div>
             </>

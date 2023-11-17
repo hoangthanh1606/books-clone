@@ -7,14 +7,14 @@ import './App.css'
 
 import { getUserInfoAction } from './redux/actions'
 
-function App({ getUserInfo }) {
+function App({ getUserInfo, userInfo }) {
 
   useEffect(() => {
     const userInfo = JSON.parse(localStorage.getItem('userInfo'))
     if (userInfo && userInfo.id) {
       getUserInfo({ id: userInfo.id });
     }
-  }, [])
+  }, [userInfo?.data?.id])
 
 
   return (
@@ -23,10 +23,17 @@ function App({ getUserInfo }) {
     </div>
   );
 }
+const mapStateToProps = (state) => {
+  const { userInfo } = state.userReducer;
+  return {
+    userInfo
+  };
+};
+
 const mapDisPatchToProps = (dispatch) => {
   return {
     getUserInfo: (params) => dispatch(getUserInfoAction(params)),
   }
 }
 
-export default connect(null, mapDisPatchToProps)(App);
+export default connect(mapStateToProps, mapDisPatchToProps)(App);

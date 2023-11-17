@@ -89,14 +89,14 @@ function* registerSaga(action) {
 function* getUserInfoSaga(action) {
   try {
     const { id } = action.payload;
-    const result = yield axios.get(`https://book-shop-eeuz.onrender.com/${id}`);
+    const result = yield axios.get(`https://book-shop-eeuz.onrender.com/users/${id}`);
     yield put({
       type: "GET_USER_INFO_SUCCESS",
       payload: {
         data: result.data,
       },
     });
-  } catch (e) {
+    } catch (e) {
     yield put({
       type: "GET_USER_INFO_FAIL",
       payload: {
@@ -112,7 +112,7 @@ function* updateUserSaga(action) {
     const { id, name, email, phone, address, gender, birthday } = action.payload;
     const result = yield axios({
       method: "PATCH",
-      url: `https://book-shop-eeuz.onrender.com/${id}`,
+      url: `https://book-shop-eeuz.onrender.com/users/${id}`,
       data: {
         name, email, phone, address, gender, birthday
       }
@@ -138,7 +138,7 @@ function* changePasswordSaga(action) {
     const { id, password } = action.payload;
     const result = yield axios({
       method: "PATCH",
-      url: `https://book-shop-eeuz.onrender.com/${id}`,
+      url: `https://book-shop-eeuz.onrender.com/users/${id}`,
       data: {
         password
       }
