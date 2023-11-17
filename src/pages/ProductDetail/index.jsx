@@ -274,6 +274,9 @@ function ProductDetailPage({
   const [review, setReview] = useState();
   const [rate, setRate] = useState();
 
+  const [currentProduct, setCurrentProduct] = useState(null);
+  const [currentProductId, setCurrentProductId] = useState(null);
+
   function onChangeText(e) {
     setReview(e.target.value);
   }
@@ -487,14 +490,59 @@ function ProductDetailPage({
   useEffect(() => {
     getProductDetail({ id: productId });
     getReviewList({productId: productId});
+
+    // setCurrentProductId(productId);
     /* eslint-disable react-hooks/exhaustive-deps */
-  }, [productId]);
+  }, [productId, getProductDetail]);
 
   useEffect(() => {
     if (productDetail.data.categoryId) {
       getProductSame({ categoryId: productDetail.data.categoryId });
+
+      setCurrentProduct(productDetail.data);
     }
   }, [productDetail.data]);
+
+  const renderRelatedProducts = () => {
+    if (!currentProduct) {
+      return null;
+    }
+    const filteredProducts = productSame.data.filter(
+      (item) => item.id !== currentProduct.id
+    );
+
+    return filteredProducts.map((productSameItem, productSameIndex) => (
+      <ProductItem key={productSameIndex}>
+        <ImgContainer>
+          <Link to={`/product/${productSameItem.id}`}>
+            <Image src={productSameItem.image[0]} alt={productSameItem.name} />
+          </Link>
+          {productSameItem.countInStock === 0 ? (
+            <IconWrapper className="disabled">
+              <i className="fas fa-shopping-cart"></i>
+            </IconWrapper>
+          ) : (
+            <IconWrapper>
+              <i className="fas fa-shopping-cart"></i>
+            </IconWrapper>
+          )}
+        </ImgContainer>
+        <Bottom>
+          <ProductLink to={`/product/${productSameItem.id}`}>
+            {productSameItem.name}
+          </ProductLink>
+          <PriceRelated>
+            <PriceLabel>
+              {parseInt(productSameItem.price)
+                .toFixed(3)
+                .toLocaleString("VN_vi")}
+              đ
+            </PriceLabel>
+          </PriceRelated>
+        </Bottom>
+      </ProductItem>
+    ));
+  };
   
   // change ảnh chi tiết
   const bigImage = productDetail.data.image ||[];
@@ -636,42 +684,7 @@ function ProductDetailPage({
         <WrapperProduct
           style={{ backgroundColor: "white", borderRadius: ".5rem" }}
         >
-          {productSame.data.map((productSameItem, productSameIndex) => (
-            <ProductItem key={productSameIndex}>
-              <ImgContainer>
-                <Link to={`/product/${productSameItem.id}`}>
-                  <img
-                    src={productSameItem.image[0]}
-                    alt={productSameItem.name}
-                  />
-                </Link>
-                {productSameItem.countInStock === 0 ? (
-                  <IconWrapper className="disabled">
-                    <i className="fas fa-shopping-cart"></i>
-                  </IconWrapper>
-                ) : (
-                  <IconWrapper>
-                    <i className="fas fa-shopping-cart"></i>
-                  </IconWrapper>
-                )}
-              </ImgContainer>
-              <Bottom>
-                {/* <div style={{ width: "100%", height: "4.2rem" }}> */}
-                  <ProductLink to={`/product/${productSameItem.id}`}>
-                    {productSameItem.name}
-                  </ProductLink>
-                {/* </div> */}
-                <PriceRelated>
-                  <PriceLabel>
-                    {parseInt(productSameItem.price)
-                      .toFixed(3)
-                      .toLocaleString("VN_vi")}
-                    đ
-                  </PriceLabel>
-                </PriceRelated>
-              </Bottom>
-            </ProductItem>
-          ))}
+          {renderRelatedProducts()}
         </WrapperProduct>
       </section>
     </>
